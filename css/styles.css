@@ -126,9 +126,8 @@ h1, h2, h3, p, ul {
 .connection .link:focus {
     color: var(--accent-text-color);
 }
-.connection .link:hover .connection-icons,
-.connection .link:focus .connection-icons {
-    fill: var(--accent-text-color);
+.connection-icons {
+    fill: currentColor;
 }
 
 /*Section*/
@@ -427,16 +426,16 @@ align-items: center;
 .item-company:not(:last-child) {
     margin-right: 30px;
 }
-.item-company .socials-icon {
+.item-company {
     color: #AFB1B8;
 }
-.item-company:hover {
-    border: 1px solid #2196F3;
+.item-company .socials-icon {
+    fill: currentColor;
 }
 
-.item-company:hover .socials-icon,
-.item-company:focus .socials-icon {
-    fill: #2196F3;
+.item-company:hover {
+    border: 1px solid #2196F3;
+    color: #2196F3;
 }
 
 /* Footer bg */
