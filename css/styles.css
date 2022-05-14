@@ -414,15 +414,6 @@ h1, h2, h3, p, ul {
 .client {
     display: flex;
 }
-.client-link {
-    display: block;
-    height: 92px;
-    width: 170px;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
 
 .item-company {
 display: flex;
